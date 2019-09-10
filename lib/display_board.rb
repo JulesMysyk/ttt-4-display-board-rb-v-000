@@ -12,6 +12,13 @@ ruby
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
+ruby
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
+
+ruby
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
 
 
 #board displaying the proper board[index] in its array format
