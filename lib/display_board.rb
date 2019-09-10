@@ -8,6 +8,12 @@ def display_board
  puts "   |   |   "
 end
 
+ruby
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
+
+
+
 #board displaying the proper board[index] in its array format
 def display_board(board)
    puts " #{board[0]} | #{board[1]} | #{board[2]} "
